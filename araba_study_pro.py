@@ -23,7 +23,7 @@ st.markdown(
 
 @st.cache_data
 def cargar_datos():
-    return pd.read_csv("Ejercicio/data_araba_cleaned.csv")
+    return pd.read_csv("data_araba_cleaned.csv")
 
 df_total = cargar_datos()
 df = df_total.copy()
